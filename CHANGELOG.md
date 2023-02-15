@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.1.0](https://github.com/lemonsareprettygood/nextjstutorial/compare/v1.0.0...v1.1.0) (2023-02-15)
+
+
+### 🍕 Features
+
+* correct asset domain for github pages ([b24a22e](https://github.com/lemonsareprettygood/nextjstutorial/commit/b24a22e25d44d4583131191f665001b7256d9907))
+
 ## 1.0.0 (2023-02-15)
 
 
