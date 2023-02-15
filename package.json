@@ -1,4 +1,11 @@
 {
+  "name": "nextjstutorial",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lemonsareprettygood/nextjstutorial.git"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
