@@ -26,13 +26,15 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: "🚀 static app"
-        run: npm run build
+        run: |
+          npm run build
+          npm run export
 
       - name: "📂 production artifacts"
         uses: actions/upload-artifact@v2
         with:
-          name: build
-          path: build
+          name: out
+          path: out
 
   release:
     environment:
@@ -52,8 +54,8 @@ jobs:
       - name: "📂 download build artifacts"
         uses: actions/download-artifact@v2
         with:
-          name: build
-          path: build
+          name: out
+          path: out
 
       - name: "🚀 release"
         id: semantic-release
@@ -103,4 +105,4 @@ jobs:
         uses: geekyeggo/delete-artifact@v1
         with:
           name: |
-            build
+            out
