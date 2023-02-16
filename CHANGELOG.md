@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+### [1.1.2](https://github.com/lemonsareprettygood/nextjstutorial/compare/v1.1.1...v1.1.2) (2023-02-16)
+
+
+### 🐛 Bug Fixes
+
+* correct image path ([5719ff3](https://github.com/lemonsareprettygood/nextjstutorial/commit/5719ff3c97365495b33ebac05cefe9ba129abf6c))
+
 ### [1.1.1](https://github.com/lemonsareprettygood/nextjstutorial/compare/v1.1.0...v1.1.1) (2023-02-16)
 
 
